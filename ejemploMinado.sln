@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejemploMinado", "ejemploMinado\ejemploMinado.csproj", "{9AA2D743-E62F-467C-9213-5C31E032FB79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AA2D743-E62F-467C-9213-5C31E032FB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA2D743-E62F-467C-9213-5C31E032FB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA2D743-E62F-467C-9213-5C31E032FB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA2D743-E62F-467C-9213-5C31E032FB79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {088D8265-E5C2-4C63-B882-35DBEFB7D9AF}
+	EndGlobalSection
+EndGlobal

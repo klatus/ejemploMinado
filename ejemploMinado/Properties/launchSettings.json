@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ejemploMinado": {
+      "commandName": "Project",
+      "commandLineArgs": "6"
+    }
+  }
+}
