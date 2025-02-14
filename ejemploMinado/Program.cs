@@ -1,4 +1,11 @@
-﻿using System.Diagnostics;
+﻿//      _________      __ __ __      __                  ___   ____ ___   ______
+//     _/_/ ____/ |   / //_// /___ _/ /___  _______     |__ \ / __ \__ \ / ____/
+//    / // /    / /  / ,<  / / __ `/ __/ / / / ___/     __/ // / / /_/ //___ \  
+//   / // /___ / /  / /| |/ / /_/ / /_/ /_/ (__  )     / __// /_/ / __/____/ /  
+//  / / \____//_/  /_/ |_/_/\__,_/\__/\__,_/____( )   /____/\____/____/_____/   
+//  |_|     /_/                                 |/                              
+
+using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Text;
 using Spectre.Console;
@@ -7,7 +14,7 @@ AnsiConsole.MarkupLine("[bold darkgreen](C) 2025 Klatus[/], Ejemplo de minado\n"
 
 DateTime now = DateTime.Now;
 string formattedTime = now.ToString("yyyy-MM-dd HH:mm:ss.fff");
-AnsiConsole.MarkupLine($"Hora actual: \t\t[red]{formattedTime}[/]");
+AnsiConsole.MarkupLine($"Hora inicial: \t\t[red]{formattedTime}[/]");
 string feed = formattedTime.ToString();
 
 // Parámetros de entrada
